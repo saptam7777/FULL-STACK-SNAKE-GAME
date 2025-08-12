@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Snake — Fullstack</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Snake</h1>
+    <div class="controls">
+      <label>
+        Name: <input id="playerName" maxlength="30" placeholder="Player" />
+      </label>
+      <button id="startBtn">Start</button>
+      <span id="scoreDisplay">Score: 0</span>
+    </div>
+
+    <canvas id="game" width="400" height="400"></canvas>
+
+    <div class="leaderboard">
+      <h2>Leaderboard</h2>
+      <ol id="leaderboardList"></ol>
+    </div>
+
+    <p class="hint">Use arrow keys or WASD to move. Press Space to pause.</p>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

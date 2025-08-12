@@ -1,0 +1,12 @@
+{
+  "name": "snake-fullstack",
+  "version": "1.0.0",
+  "description": "Simple full-stack Snake game with leaderboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
